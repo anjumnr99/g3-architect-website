@@ -254,6 +254,11 @@ main {
     .facts-description {
         width: auto;
     }
+    .sponspers-images{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -294,6 +299,10 @@ main {
 
     .facts-description {
         width: auto;
+    }
+    .sponspers-images img{
+        width: 100px;
+        height: auto;
     }
 
 }
