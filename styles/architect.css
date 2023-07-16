@@ -35,7 +35,7 @@ nav {
 
 nav h3 {
     color: #131313;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -53,10 +53,10 @@ nav ul li {
 
 }
 
-.banner img{
+.banner img {
     margin-top: 50px;
     width: 100%;
-    
+
 
 }
 
@@ -68,7 +68,7 @@ nav ul li {
 
 .banner-title {
     color: #131313;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -79,22 +79,86 @@ nav ul li {
     margin-bottom: 32px;
 }
 
-@media screen and (max-width:576px){
-    header{
+/* Main start */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 240px;
+
+}
+
+.team-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5.3rem;
+    margin-bottom: 8.1rem;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+}
+
+.team-content {
+    padding-left: 4.3em;
+    padding-right: 4.3em;
+
+}
+
+.team-title {
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    color: #131313;
+}
+
+.quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.team-features {
+    color: #FF900E;
+    ;
+}
+
+.team-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
-        gap:10px
+        gap: 10px
     }
 }
-@media screen and (min-width:576px) and (max-width:992px){
-    header{
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
         padding: 15px;
     }
-    nav{
+
+    nav {
         gap: 0px;
         padding: 10px;
     }
-    
+
 }
