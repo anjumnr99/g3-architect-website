@@ -209,6 +209,18 @@ main {
         margin: 0;
         padding: 0;
     }
+    .facts-cards{
+        flex-direction: column;
+    }
+    .facts-container{
+        padding: 8px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+    .facts-description{
+        width: auto;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -233,6 +245,18 @@ main {
     nav {
         gap: 0px;
         padding: 10px;
+    }
+    .facts-container{
+        padding: 20px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+    .facts-cards{
+        display: block;
+    }
+    .facts-description{
+        width: auto;
     }
 
 }
